@@ -1,0 +1,7 @@
+curl --max-time 10 -sS https://api.github.com/repos/prepward/mcino-Introduction-to-Git-and-GitHub/branches | grep -E '"name"|"protected"'
+    "name": "bug-fix-revert",
+    "protected": false
+    "name": "bug-fix-typo",
+    "protected": false
+    "name": "main",
+    "protected": false
